@@ -7,7 +7,6 @@ calculo = gets.chomp
 puts "Digite o segundo numero"
 numero2 = gets.chomp.to_f
 
-
 case calculo
 when "+" , "soma" , "mais"
   resultado = numero1 + numero2
